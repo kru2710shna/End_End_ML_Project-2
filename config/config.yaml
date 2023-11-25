@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir = artifacts/data_ingestion
+  source_URL= https://github.com/kru2710shna/End_End_ML_Project-2/blob/main/winequality-red.csv
+  local_ddata_file = artifacts/data_ingestion_data.zip
+  unzip_dir = artifacts/data_ingestion
